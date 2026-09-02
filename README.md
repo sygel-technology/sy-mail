@@ -16,6 +16,13 @@ Mail
 <!-- prettier-ignore-start -->
 
 [//]: # (addons)
+
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[sy_mail_activity_schedule_description_layout](sy_mail_activity_schedule_description_layout/) | 18.0.1.0.0 |  | Increases the note field size when scheduling activities
+
 [//]: # (end addons)
 
 <!-- prettier-ignore-end -->

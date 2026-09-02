@@ -1,0 +1,11 @@
+[project]
+name = "odoo-addons-sygel-technology-sy-mail"
+version = "18.0.20260902.0"
+dependencies = [
+    "odoo-addon-sy_mail_activity_schedule_description_layout==18.0.*",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 18.0",
+]
