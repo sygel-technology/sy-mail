@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2026 Ángel Rivas <angel.rivas@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="mail_activity_schedule_view_form_inherit_note" model="ir.ui.view">
+        <field name="name">mail.activity.schedule.form.inherit.note</field>
+        <field name="model">mail.activity.schedule</field>
+        <field name="inherit_id" ref="mail.mail_activity_schedule_view_form" />
+        <field name="arch" type="xml">
+            <field name="note" position="attributes">
+                <attribute name="options">{'height': 100}</attribute>
+            </field>
+        </field>
+    </record>
+</odoo>
